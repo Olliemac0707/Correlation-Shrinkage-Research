@@ -32,19 +32,19 @@ This study evaluates risk forecasting first. Minimum-variance target weights are
 
 Let X contain T=252 trailing return vectors for p assets. Both methods use a shared zero-conditional-mean approximation and the normalization:
 
-\[
+```math
 S_t=\frac{1}{T}X_t^\top X_t.
-\]
+```
 
 Without the zero-mean approximation, this is a second moment rather than a demeaned covariance estimate. No sample mean is fitted or subtracted.
 
 The baseline forecast is S. For the candidate, define the diagonal matrix D of sample standard deviations, standardized observations Z=XD⁻¹, and R=ZᵀZ/T. Apply the analytical Ledoit–Wolf intensity rule to Z with centering disabled, then rescale:
 
-\[
+```math
 \widehat\Sigma_t
 =D_t[(1-\delta_t)R_t+\delta_t I]D_t
 =(1-\delta_t)S_t+\delta_t\operatorname{diag}(S_t).
-\]
+```
 
 The intensity is calculated from the current training window alone and clipped to [0,1] according to the frozen formula. The exact numerator, denominator and numerical branches are recorded in the [protocol](protocol/frozen/v1.0/PROTOCOL-DRAFT.md).
 
@@ -52,10 +52,10 @@ This construction preserves individual sample variances. It tests regularization
 
 The primary score is matrix Gaussian quasi-likelihood:
 
-\[
+```math
 L(A_t,r_{t+1})
 =\log\det(A_t)+r_{t+1}^{\top}A_t^{-1}r_{t+1}.
-\]
+```
 
 The quadratic term penalizes underestimated risk in directions where returns move. The log-determinant term penalizes excessive overall dispersion. Under appropriate moment conditions, expected loss is minimized by the conditional second moment. Choosing this score does not assume that actual returns are Gaussian.
 
@@ -94,11 +94,11 @@ The three structures are diagonal covariance, strong common correlation and mixe
 
 Known population covariance permits direct measurement of matrix error and expected-score regret:
 
-\[
+```math
 \mathcal R(A,\Sigma)
 =\log\det(A)-\log\det(\Sigma)
 +\operatorname{tr}(A^{-1}\Sigma)-p.
-\]
+```
 
 Unlike historical realized loss, this diagnostic averages out next-return noise using known truth. In the eight-asset Gaussian cases:
 
