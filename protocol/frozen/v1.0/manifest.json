@@ -1,0 +1,33 @@
+{
+  "protocol_id": "correlation-shrinkage-v1.0",
+  "frozen_at_utc": "2026-10-19T19:48:43.066232+00:00",
+  "authorization": "User: Ok lets look to freeze the plan and then begin issuer verification etc",
+  "scope": "Methodological design frozen. Product/source eligibility remains conditional; no study execution authorized by this freeze.",
+  "files": [
+    {
+      "path": "DECISIONS.md",
+      "bytes": 10382,
+      "sha256": "edb302e66a2c2ea7d414508c19b3f3a366c7d38a833828d2a70ab36f29298682"
+    },
+    {
+      "path": "OPTIONS-AND-TRADEOFFS.md",
+      "bytes": 21960,
+      "sha256": "fc154cfb05e54bef813df7332e8fb4f64657578eea556a3dd81f4caa686a0e99"
+    },
+    {
+      "path": "PROTOCOL-DRAFT.md",
+      "bytes": 21645,
+      "sha256": "d76cbb6441dec45f078e340b6f85e07c6bdcc117063754040690f144e574a178"
+    },
+    {
+      "path": "RESEARCH-DESIGN-DRAFT.md",
+      "bytes": 12593,
+      "sha256": "03f89395b576ae9277c54d27fb0c1cce492f0e14c4412fb3e52a676007c12a0e"
+    },
+    {
+      "path": "UNIVERSE-PROPOSAL.md",
+      "bytes": 10153,
+      "sha256": "5d86848637fce16b9df188327dd7f124d46393f3d6790aac14f5ad74949d899e"
+    }
+  ]
+}

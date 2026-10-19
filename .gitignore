@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+/results/
+/data/
+/audits/
+.cache/
+/FINDINGS.md
+/HISTORICAL-*.md
+/HISTORICAL-*.json
+/VALIDATION.md

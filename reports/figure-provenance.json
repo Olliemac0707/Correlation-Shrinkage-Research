@@ -1,0 +1,25 @@
+{
+  "copied_at_utc": "2026-10-19T21:07:05.312930+00:00",
+  "figures": [
+    {
+      "source": "results/run-v1.0-a1-20261019/figures/synthetic-overview.png",
+      "review_copy": "reports/figures/synthetic-overview.png",
+      "sha256": "165732bc1c0cba9ea428fe07961bb506e8edfa2fd0848b43a1aec268008d9450"
+    },
+    {
+      "source": "results/run-v1.0-a1-20261019/figures/synthetic-overview.pdf",
+      "review_copy": "reports/figures/synthetic-overview.pdf",
+      "sha256": "36e2b1e8d7025a1d3713d4753006638c7b8d45ec6344da83ebfcd5b24c0f1b7c"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/figures/historical-overview.png",
+      "review_copy": "reports/figures/historical-overview.png",
+      "sha256": "a6d3e80c9d58c16b7b58ae6d64545fdbfbc06d8fc5be08c8952dbd614ede9746"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/figures/historical-overview.pdf",
+      "review_copy": "reports/figures/historical-overview.pdf",
+      "sha256": "4b38f774e45d8b657e10e7487d223a94644e3ff2e87eb0f14d9f6ed4cb3d6d9d"
+    }
+  ]
+}

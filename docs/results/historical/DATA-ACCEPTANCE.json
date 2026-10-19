@@ -1,0 +1,26 @@
+{
+  "status": "accepted",
+  "accepted_at_utc": "2026-10-19T20:37:42.432336+00:00",
+  "protocol_id": "correlation-shrinkage-v1.0",
+  "price_sessions": 5283,
+  "forecast_targets": 4780,
+  "extreme_flags_retained": 2,
+  "input_reviewer": "Codex; internal consistency, not independent external validation",
+  "no_historical_scores_examined": true,
+  "hashes": {
+    "EEM.json": "2de231afeee026ad00df5063e4789139d4fe04c2ff4f2b7bce1ddd60342f4f10",
+    "EFA.json": "de4abe07a094b64ce954030e7adff195a07fc9ade63392e3fc56b1f1646d05aa",
+    "GLD.json": "e5f6490d7a06eabb0faefeff9a8da9113642128bb6f0623b54f6392f679d95ad",
+    "IEF.json": "4b6bb4f9b872a4a53502d44b66f24acceb04e1175d5492c7ba0065613b697818",
+    "INPUT-REVIEW.md": "dc08c65eb45818afee7740bd114ea8a5e1d4995a1ef72e2a8d50efc08da6779b",
+    "ISSUER-SOURCE-ACCEPTANCE.md": "1e664e65a4137c5142bfc857bced9e5f025f6ee9062a178c7fd2365c719ce9c0",
+    "LQD.json": "7c691f08f7e1ecb3337b462ad5c753c273f68367ee1e77a1520f1a08e536e2d7",
+    "SPY.json": "3639cd906e4eef214d499b5e5963d1848d996bc6c5e3221f85e6a75cc6fe9365",
+    "TLT.json": "4230a5f30348a61510f87673998360fa93d3465eda09869688cfc95cdb2f9bc5",
+    "VNQ.json": "e8f664b55f9b786a6a2e46261768a820fbc39bffb4cc19ffcc318dd885dc7455",
+    "acquisition-manifest.json": "50b728ce7c1fc03474f343b8fe88a2e01fdb166a1650ea7cf7d4bd85e711c71a",
+    "calendar.json": "951e6ca3fcd27756f08efca7052b6d3c05bdd3ca07ad54c8c1e6f2a7c1c3644c",
+    "prices.npz": "c47204174331038987a2b5706e9f852c0542e7d8f7dbf60e7eddc6f298e9c148",
+    "validation.json": "f5442a948e6e6e972053f3002fde956ebb29eff9cc9dfd21e45fecacbe2b0fcc"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "Publication packaging only. Scientific outputs and frozen snapshots are copied byte-for-byte. Raw provider data, detailed historical returns/forecasts, local environments and operational logs are excluded. Complete local artifact manifests reference files not distributed publicly.",
+  "evidence": [
+    {
+      "source": "results/run-v1.0-a1-20261019/REPORT.md",
+      "public_copy": "docs/results/synthetic/REPORT.md",
+      "sha256": "44f68ba591371f85b72c3b223e63858290b89eb4baaa619473113a7d9cfebcd4"
+    },
+    {
+      "source": "results/run-v1.0-a1-20261019/summary.json",
+      "public_copy": "docs/results/synthetic/summary.json",
+      "sha256": "e1f23ec35d12820b2011b485790edb02bb75af5449497a6d18b8a30b227dd110"
+    },
+    {
+      "source": "results/run-v1.0-a1-20261019/run-manifest.json",
+      "public_copy": "docs/results/synthetic/run-manifest.json",
+      "sha256": "bc22f4da1e9e8d328b16b72c9efbac63b9c39b097885d29202b0558b39785255"
+    },
+    {
+      "source": "results/run-v1.0-a1-20261019/completion.json",
+      "public_copy": "docs/results/synthetic/completion.json",
+      "sha256": "95bd3df60a2d9f0c289fa5f9350772468ca5e4900db63d4da2dbe085d3562bcc"
+    },
+    {
+      "source": "results/run-v1.0-a1-20261019/artifact-manifest.json",
+      "public_copy": "docs/results/synthetic/artifact-manifest.json",
+      "sha256": "b8d83aa10dfe1bc00cdfb11548fd16ed6a726333b4aa39a36e191caa0249e76e"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/REPORT.md",
+      "public_copy": "docs/results/historical/REPORT.md",
+      "sha256": "721836b8e40118e16335fc967a0487b7808fbb5f7e1192605a20978b741b9ae7"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/summary.json",
+      "public_copy": "docs/results/historical/summary.json",
+      "sha256": "a8553ce5ab69371dfaefc7f35acf01059929a9f76889209fba2e2ae00d6a673d"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/run-manifest.json",
+      "public_copy": "docs/results/historical/run-manifest.json",
+      "sha256": "9cd28182f48a88918398f0a5dced8976e211e9242f2ba234e922af2d6b9c1c3a"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/completion.json",
+      "public_copy": "docs/results/historical/completion.json",
+      "sha256": "52be5e60cbced2af276a484c4d4ede1f6ab1cf612a8f3e1c6add6ae7c805cf88"
+    },
+    {
+      "source": "results/historical-v1.0-20261019-r1/artifact-manifest.json",
+      "public_copy": "docs/results/historical/artifact-manifest.json",
+      "sha256": "bb0ab33119d9e8ca14bbe1ffbec40b0d9b84bbd1fb2e69ce7b7594fba18f8734"
+    }
+  ]
+}

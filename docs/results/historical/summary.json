@@ -1,0 +1,32 @@
+{
+  "targets": 4780,
+  "expected_targets": 4780,
+  "sample_mean_loss": -73.74593291758936,
+  "shrinkage_mean_loss": -73.91069281043647,
+  "mean_difference": -0.16475989284711287,
+  "matrix_failures": 0,
+  "known_inference_undercoverage": true,
+  "uncertainty_failures": {},
+  "hac": {
+    "mean": -0.16475989284711287,
+    "se": 0.24107750477876919,
+    "low": -0.6372631196962832,
+    "high": 0.30774333400205756,
+    "long_run_variance": 277.80577662350873,
+    "lag": 252,
+    "n": 4780
+  },
+  "bootstrap": {
+    "mean": -0.16475989284711287,
+    "low": -0.5174704764017729,
+    "high": 0.3222239104331123,
+    "replications": 4999,
+    "expected_length": 252
+  },
+  "monthly_origins": 228,
+  "portfolio_failures": {
+    "sample": 80,
+    "shrinkage": 88
+  },
+  "complete_monthly_weight_pairs": 94
+}

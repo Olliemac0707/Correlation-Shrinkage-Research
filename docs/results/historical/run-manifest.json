@@ -1,0 +1,36 @@
+{
+  "started_at_utc": "2026-10-19T20:37:51.475828+00:00",
+  "protocol_hash": "72a337fd2b8093952cfc3cd00d82f35bb03c7d0bd4a1aaa9b4e0c4d960fa53da",
+  "source_hashes": {
+    "pyproject.toml": "b1f2b9c1809d936a3a5553e8fb53b90cea883c3faaf735dd32868027829d94fd",
+    "requirements-lock.txt": "c8f6391561ac9efd7d79449395289ce55cfde862e5216fc52c21a0d7eb024ab1",
+    "src/covariance_research/__init__.py": "0b7b500cfeb4f2f0713bb81999b1a6755a8172fb34a58f8dbb030f21f337b0d5",
+    "src/covariance_research/core.py": "198db549163cb7f85fdb07ec5ede01d3e7d6c0e602b355640cce758eef4410bb",
+    "src/covariance_research/historical.py": "9c344b420f2dd75e795fea46bece2dae0900da08b1d13b620fcc9669231dcdcb",
+    "src/covariance_research/historical_report.py": "161696f408999f040f050d48249f757a5f18ab99042f556d63dd9784b91c58c0",
+    "src/covariance_research/inference.py": "c52a0c15fa9ad8d5ce511a11dce46504986df6e31f7457b8a0789d57c81420d2",
+    "src/covariance_research/report.py": "7e7bd046ce429953691df748e93a75f35124cdb139493d8ef7fe989f8c64da14",
+    "src/covariance_research/run.py": "f40a0d1f1998518466e6b65bec22a6366a813310b9b4147a9f8a84799f594358",
+    "src/covariance_research/simulation.py": "cd748ce056ce39c5101b9a470d73be8f7b108eb0f80ad58d2861d1bfbc5c69de",
+    "tests/test_historical.py": "8f13cf4d6af9f225402ac8043bcf50bc27a6651ffb2d0bc24544ad6adc131a53",
+    "tests/test_methods.py": "8c111d53827080261f33b33420eca9c8de68e9f8ec2daad3013b82f0ed329084"
+  },
+  "data_directory": "/workspace/covariance-portfolio-research/data/acquisition-20261019-v1",
+  "data_acceptance_sha256": "ef0534f959b75acc413802ec7978182043c4182a640e8b68682f1a67a150d895",
+  "issuer_acceptance_sha256": "1e664e65a4137c5142bfc857bced9e5f025f6ee9062a178c7fd2365c719ce9c0",
+  "tickers": [
+    "SPY",
+    "EFA",
+    "EEM",
+    "IEF",
+    "TLT",
+    "LQD",
+    "GLD",
+    "VNQ"
+  ],
+  "price_rows": 5283,
+  "expected_targets": 4780,
+  "calendar_version": "4.13.2",
+  "known_synthetic_inference_weakness": true,
+  "known_synthetic_optimizer_weakness": true
+}

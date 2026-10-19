@@ -1,0 +1,32 @@
+{
+  "audited_at_utc": "2026-10-19T20:19:56.923958+00:00",
+  "status": "passed",
+  "artifact_hashes_verified": 864,
+  "grid_samples": 9000,
+  "complete_grid_matrix_pairs": 9000,
+  "complete_grid_portfolio_risk_pairs": 1970,
+  "independently_recomputed_grid_samples": 36,
+  "adaptation_paths": 400,
+  "complete_adaptation_score_pairs": 504000,
+  "expected_adaptation_score_pairs": 504000,
+  "independently_recomputed_adaptation_forecasts": 1600,
+  "uncertainty_registered_counts": [
+    {
+      "process": 0,
+      "hac": 1000,
+      "bootstrap": 200
+    },
+    {
+      "process": 1,
+      "hac": 1000,
+      "bootstrap": 200
+    },
+    {
+      "process": 2,
+      "hac": 1000,
+      "bootstrap": 200
+    }
+  ],
+  "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+  "audit_script_sha256": "83e0df77007ac81365c868171356c6ab03de2630224e19e16003b2792b7f7f6c"
+}

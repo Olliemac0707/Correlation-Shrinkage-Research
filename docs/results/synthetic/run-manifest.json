@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-19T20:13:28.940858+00:00",
+  "python": "3.12.14",
+  "protocol_id": "correlation-shrinkage-v1.0",
+  "protocol_manifest_sha256": "72a337fd2b8093952cfc3cd00d82f35bb03c7d0bd4a1aaa9b4e0c4d960fa53da",
+  "amendment_sha256": "98909df9822e155ddacc1383ebe67cfad608df3ae2b5c17ab0f7d691088505a7",
+  "source_hashes": {
+    "pyproject.toml": "acbd48bc82f9088113122c889802e66599b895ffb6c3daaf110d09cbad8b72d8",
+    "requirements-lock.txt": "300982e080b4b3f8c8c862c9a9ba63ac994e07286da32c73e9cc851e59cc3f55",
+    "src/covariance_research/__init__.py": "0b7b500cfeb4f2f0713bb81999b1a6755a8172fb34a58f8dbb030f21f337b0d5",
+    "src/covariance_research/core.py": "198db549163cb7f85fdb07ec5ede01d3e7d6c0e602b355640cce758eef4410bb",
+    "src/covariance_research/inference.py": "c52a0c15fa9ad8d5ce511a11dce46504986df6e31f7457b8a0789d57c81420d2",
+    "src/covariance_research/report.py": "7e7bd046ce429953691df748e93a75f35124cdb139493d8ef7fe989f8c64da14",
+    "src/covariance_research/run.py": "f40a0d1f1998518466e6b65bec22a6366a813310b9b4147a9f8a84799f594358",
+    "src/covariance_research/simulation.py": "cd748ce056ce39c5101b9a470d73be8f7b108eb0f80ad58d2861d1bfbc5c69de",
+    "tests/test_methods.py": "8c111d53827080261f33b33420eca9c8de68e9f8ec2daad3013b82f0ed329084"
+  },
+  "source_identity_sha256": "91e6a9ddced9836b879a67488061f2e4b12a72ba851b52a42bda62de1dc0a4d1",
+  "workers": 4,
+  "blas_threads_per_worker": 1,
+  "registered_counts": {
+    "grid_cells": 18,
+    "grid_replications_per_cell": 500,
+    "adaptation_paths_per_distribution": 200,
+    "adaptation_targets_per_path": 1260,
+    "uncertainty_processes": 3,
+    "hac_repetitions_per_process": 1000,
+    "bootstrap_repetitions_per_process": 200,
+    "bootstrap_resamples_per_diagnostic": 999
+  },
+  "historical_status": "blocked_pending_issuer_and_source_verification"
+}

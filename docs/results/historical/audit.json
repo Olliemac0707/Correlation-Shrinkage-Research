@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "audited_at_utc": "2026-10-19T20:40:37.419501+00:00",
+  "artifact_hashes_verified": 30,
+  "input_hashes_verified": 14,
+  "forecast_targets_recomputed": 4780,
+  "monthly_origins_checked": 228,
+  "maximum_direct_loss_discrepancy": 2.5153212845907547e-12,
+  "maximum_matrix_condition": 1300.2935322618346,
+  "valid_monthly_weights": {
+    "sample": 148,
+    "shrinkage": 140
+  },
+  "primary_interval_spans_zero": true,
+  "sensitivity_interval_spans_zero": true,
+  "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+  "audit_script_sha256": "91d91035812103f1d62eaa6a7bc6f5b5afc7e1f4c3afdf03b6a797ee6b3f986f"
+}
