@@ -71,4 +71,4 @@ The tests and two-asset demo are offline software checks. They do not download p
 
 Raw provider data, detailed historical return/forecast arrays, local environments and operational logs are excluded. Exact historical reconstruction requires the matching accepted snapshot; a fresh download can differ. Published audit receipts describe checks against complete local evidence, not a complete public redistribution of it. Packaging changes are documented in the [publication receipt](docs/PUBLICATION-RECEIPT.json); no scientific definitions or recorded outcomes were changed.
 
-**Acknowledgment:** This project was developed with the help of AI assistance under the maintainer's direction. Implementation checks are part of the development workflow, not independent external scientific review.
+Implementation checks form part of the development workflow; they do not constitute independent external scientific review.
