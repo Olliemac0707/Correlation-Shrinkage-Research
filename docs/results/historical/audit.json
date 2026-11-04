@@ -13,6 +13,6 @@
   },
   "primary_interval_spans_zero": true,
   "sensitivity_interval_spans_zero": true,
-  "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+  "scope": "Internal arithmetic/provenance audit, not independent scientific review",
   "audit_script_sha256": "91d91035812103f1d62eaa6a7bc6f5b5afc7e1f4c3afdf03b6a797ee6b3f986f"
 }

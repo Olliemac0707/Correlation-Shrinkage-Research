@@ -175,7 +175,6 @@ The project retains raw local acquisition responses, the accepted calendar, prot
 
 The pre-run implementation suite has **39 passing tests**. An implementation-level arithmetic and provenance audit recomputed all 4,780 historical forecasts using the reference shrinkage implementation and direct matrix solves, checked all 228 monthly origins, and verified 30 output-artifact and 14 input hashes. The maximum direct loss discrepancy was approximately 2.52×10⁻¹². Numerical agreement validates implementation arithmetic, not statistical assumptions or economic generality. These checks form part of the development workflow; they are not an independent external scientific review.
 
-**Acknowledgment:** This project was developed with the help of AI assistance under the maintainer's direction.
 
 ## References and evidence
 

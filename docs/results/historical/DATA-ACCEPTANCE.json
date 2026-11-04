@@ -5,7 +5,7 @@
   "price_sessions": 5283,
   "forecast_targets": 4780,
   "extreme_flags_retained": 2,
-  "input_reviewer": "Codex; internal consistency, not independent external validation",
+  "input_reviewer": "Internal consistency review; not independent external validation",
   "no_historical_scores_examined": true,
   "hashes": {
     "EEM.json": "2de231afeee026ad00df5063e4789139d4fe04c2ff4f2b7bce1ddd60342f4f10",

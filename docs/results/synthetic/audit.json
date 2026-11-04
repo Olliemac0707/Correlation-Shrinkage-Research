@@ -27,6 +27,6 @@
       "bootstrap": 200
     }
   ],
-  "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+  "scope": "Internal arithmetic/provenance audit, not independent scientific review",
   "audit_script_sha256": "83e0df77007ac81365c868171356c6ab03de2630224e19e16003b2792b7f7f6c"
 }

@@ -1,6 +1,6 @@
 """Recompute selected scientific outputs independently of the implementation.
 
-Run after completion. This is a Codex arithmetic/provenance audit, not an
+Run after completion. This is an internal arithmetic/provenance audit, not an
 independent scientific review. No experiment settings or artifacts are changed.
 """
 
@@ -161,7 +161,7 @@ def audit(run: Path):
         "expected_adaptation_score_pairs": 504000,
         "independently_recomputed_adaptation_forecasts": checked_forecasts,
         "uncertainty_registered_counts": uncertainty_counts,
-        "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+        "scope": "Internal arithmetic/provenance audit, not independent scientific review",
     }
 
 

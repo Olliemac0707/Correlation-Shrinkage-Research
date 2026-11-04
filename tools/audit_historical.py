@@ -1,6 +1,6 @@
 """Full arithmetic/provenance audit of historical outputs using direct solves.
 
-Codex audit only, not independent scientific validation or calibrated inference.
+Internal audit only, not independent scientific validation or calibrated inference.
 """
 
 import argparse
@@ -154,7 +154,7 @@ def audit(run, data):
         "valid_monthly_weights": valid_counts,
         "primary_interval_spans_zero": primary_spans_zero,
         "sensitivity_interval_spans_zero": sensitivity_spans_zero,
-        "scope": "Codex arithmetic/provenance audit, not independent scientific review",
+        "scope": "Internal arithmetic/provenance audit, not independent scientific review",
     }
 
 
